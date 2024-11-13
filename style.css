@@ -15,6 +15,14 @@ img {
     height: auto;
 }
 
+/* Logo Styling */
+.logo {
+    width: 150px;    /* Set to your preferred width */
+    height: auto;    /* Maintain aspect ratio */
+    max-width: none; /* Prevent it from being constrained */
+}
+
+/* Container */
 .container {
     width: 100%;
     max-width: 1160px;
@@ -29,7 +37,7 @@ img {
 /* Header */
 header {
     width: 100%;
-    padding: 20px 0;
+    padding: 30px 0;  /* Increased padding for better spacing */
     position: fixed;
     top: 0;
     left: 0;
@@ -43,10 +51,7 @@ nav {
     align-items: center;
 }
 
-.logo {
-    width: 150px;
-}
-
+/* Menu Styling */
 .menu {
     list-style: none;
     display: flex;
@@ -194,5 +199,10 @@ footer {
     .col-4 {
         width: 100%;
         margin-bottom: 20px;
+    }
+
+    /* Adjust logo size for smaller screens */
+    .logo {
+        width: 120px;  /* Adjust size for smaller screens */
     }
 }
