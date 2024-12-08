@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://ninjasdi.github.io/etheri5g/">
-    <img src="img/Etheri5G - Copia.png" width="400" alt="Etheri5G Logo">
+    <img src="Etheri5G.png" width="400" alt="Etheri5G Logo">
   </a>
 </p>
 
